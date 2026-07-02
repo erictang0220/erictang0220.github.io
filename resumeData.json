@@ -97,9 +97,7 @@
       },
       {
         "title": "Echo Show Super-Resolution",
-        "category": "C++/OpenCV app increasing Echo Show camera resolution by 40% using SR algorithms — Amazon internship",
-        "url": "https://github.com/erictang0220",
-        "urlLabel": "GitHub"
+        "category": "C++/OpenCV app increasing Echo Show camera resolution by 40% using SR algorithms — Amazon internship"
       },
       {
         "title": "Autonomous Vehicle Lane Data Pipeline",
@@ -107,9 +105,7 @@
       },
       {
         "title": "Intellicom — FPGA Messaging System",
-        "category": "Bidirectional messaging system between FPGA boards using Bluetooth, UART, and MicroBlaze C",
-        "url": "https://github.com/erictang0220",
-        "urlLabel": "GitHub"
+        "category": "Bidirectional messaging system between FPGA boards using Bluetooth, UART, and MicroBlaze C"
       }
     ]
   },
