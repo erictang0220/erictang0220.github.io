@@ -88,40 +88,46 @@
     "projects": [
       {
         "title": "Task Console — DoorDash",
-        "category": "Self-serve ops platform for Dasher task management (21 task types, 6+ teams)",
-        "image": "01.jpg",
-        "url": "https://www.linkedin.com/in/erictang24"
+        "category": "Self-serve ops platform for Dasher task management (21 task types, 6+ teams)"
       },
       {
         "title": "SeekEats",
-        "category": "iOS app (App Store): earn points via surveys, redeem food coupons — 200+ users, 40+ partners",
-        "image": "02.jpg",
-        "url": "https://apps.apple.com/us/app/seekeats/id1671559232"
+        "category": "iOS app: earn points via surveys, redeem food coupons — 200+ users, 40+ partners (discontinued)"
       },
       {
         "title": "StudyRadar",
         "category": "Full-stack study group matchmaking web app — React/Node.js/PostgreSQL, 50+ UCLA users",
-        "image": "03.jpg",
-        "url": "https://github.com/erictang0220"
+        "url": "https://github.com/study-radar/study-radar-frontend",
+        "urlLabel": "GitHub"
       },
       {
         "title": "Echo Show Super-Resolution",
         "category": "C++/OpenCV app increasing Echo Show camera resolution by 40% using SR algorithms — Amazon internship",
-        "image": "04.jpg",
-        "url": "https://github.com/erictang0220"
+        "url": "https://github.com/erictang0220",
+        "urlLabel": "GitHub"
       },
       {
         "title": "Autonomous Vehicle Lane Data Pipeline",
-        "category": "3-layer C++ pipeline for AV lane geometry transfer — contributed to 62% SF self-driving zone expansion (Cruise)",
-        "image": "05.jpg",
-        "url": "https://www.linkedin.com/in/erictang24"
+        "category": "3-layer C++ pipeline for AV lane geometry transfer — contributed to 62% SF self-driving zone expansion (Cruise)"
       },
       {
         "title": "Intellicom — FPGA Messaging System",
         "category": "Bidirectional messaging system between FPGA boards using Bluetooth, UART, and MicroBlaze C",
-        "image": "06.jpg",
-        "url": "https://github.com/erictang0220"
+        "url": "https://github.com/erictang0220",
+        "urlLabel": "GitHub"
       }
+    ]
+  },
+  "art": {
+    "pieces": [
+      {"name": "Couplet", "date": "Calligraphy", "story": "", "image": "couplet.jpeg"},
+      {"name": "Horse", "date": "Painting", "story": "", "image": "horse.jpg"},
+      {"name": "Joy", "date": "Calligraphy", "story": "", "image": "joy.jpg"},
+      {"name": "Parasol", "date": "Painting", "story": "", "image": "parasol.jpeg"},
+      {"name": "Peony", "date": "Painting", "story": "", "image": "peony.jpeg"},
+      {"name": "Pipa Xing", "date": "Calligraphy", "story": "", "image": "pipaxing.jpg"},
+      {"name": "Square", "date": "Calligraphy", "story": "", "image": "square.jpeg"},
+      {"name": "Xingshu", "date": "Calligraphy", "story": "", "image": "xingshu.jpeg"}
     ]
   }
 }
