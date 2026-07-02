@@ -1,32 +1,43 @@
-# My portfolio :page_with_curl: 💻🧑🏼‍🎨
+# Eric Tang — Portfolio
 
-### [LIVE DEMO](https://erictang0220.github.io/My-Portfolio/)
+**Live site:** https://erictang0220.github.io/My-Portfolio/
 
-## Description
-This website is the documentation of my professional experiences and passion in arts. It's also a good practice for me to solidify my web developing skills.
+Personal portfolio showcasing my software engineering experience, projects, and Chinese calligraphy/brush painting artwork.
 
-This website is written in React incorporating ideas of a work from a previous [author](https://github.com/tbakerx). I made some modifications to better suit my vision of incorporating my hobby and profession. Some features include the following:
-* Adpatation of navigation bar on mobile
-* Dynamic background utilizing [particles-bg](https://www.npmjs.com/package/particles-bg)
-* Image carasoul inlcuding hover and zoom effect
-* Contact Form
+## Features
 
-![](https://i.imgur.com/9Ejz6Ot.gif)
+- **Work history** — DoorDash, Amazon, Cruise, and other experience
+- **Projects** — software engineering projects with links to repos where public
+- **Art gallery** — carousel + full grid of Chinese calligraphy and brush painting pieces
+- **Contact form** — powered by Web3Forms (no backend required)
+- Smooth scroll navigation, responsive layout
 
+## Tech Stack
 
-![](https://i.imgur.com/GQGFY2R.gif)
-## Installation
-1. Clone the project
-```shell
+- React (class components), Create React App
+- `react-multi-carousel` for art carousel
+- `react-reveal` for scroll animations
+- Web3Forms for contact form submission
+- Deployed on GitHub Pages (`gh-pages` branch)
+
+## Data
+
+All content is data-driven — edit `public/resumeData.json` to update bio, work history, skills, projects, and artwork without touching React code.
+
+## Local Development
+
+```bash
 git clone https://github.com/erictang0220/My-Portfolio
-```
-2. Run the project
-```shell
+cd My-Portfolio
 npm install
 npm start
 ```
 
-## Credits
-[portfoliio inspiration](https://github.com/tbakerx/react-resume-template)
+## Deploy
 
-[Carousel inspiration](https://react-multi-carousel.vercel.app/)
+```bash
+NODE_OPTIONS=--openssl-legacy-provider npm run build
+NODE_OPTIONS=--openssl-legacy-provider ./node_modules/.bin/gh-pages -d build
+```
+
+> Note: `npm run deploy` does not work directly — `predeploy` doesn't inherit `NODE_OPTIONS` on Node v25+.
