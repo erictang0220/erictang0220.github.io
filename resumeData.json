@@ -60,27 +60,15 @@
       },
       {
         "company": "Amazon",
-        "title": "Software Engineering Intern",
-        "years": "June 2024 – September 2024",
-        "description": "Built a React/Java platform enabling bulk upload and download of Amazon Business invoicing response rules, reducing rule configuration time by 80× and cutting business invoicing rejection rate by 40%. Implemented Excel deserialization, validation, and rollback on partial upload failure."
-      },
-      {
-        "company": "Amazon",
-        "title": "Software Engineering Intern",
-        "years": "June 2023 – September 2023",
-        "description": "Built a C++ application increasing Echo Show camera resolution using super-resolution (SR) algorithms with OpenCV. Introduced support for 4 SR algorithms, 2 upscaling factors, and custom frame acquisition. Achieved 40% average image quality improvement measured by PSNR and SSIM metrics."
+        "title": "Software Engineering Intern (×2)",
+        "years": "June 2023 – September 2024",
+        "description": "2024: Built a React/Java platform for bulk upload/download of Amazon Business invoicing response rules, reducing rule configuration time by 80× and cutting rejection rate by 40%. Implemented Excel deserialization, validation, and rollback on partial failure. 2023: Built a C++/OpenCV application increasing Echo Show camera resolution using super-resolution algorithms. Achieved 40% average image quality improvement (PSNR/SSIM) across 4 SR algorithms and 2 upscaling factors."
       },
       {
         "company": "Cruise (GM)",
-        "title": "Software Engineering Intern",
-        "years": "September 2023 – December 2023",
-        "description": "Built an execution proxy for remote execution optimization, reducing operational costs by $100K/month."
-      },
-      {
-        "company": "Cruise (GM)",
-        "title": "Software Engineering Intern",
-        "years": "June 2022 – September 2022",
-        "description": "Designed C++ data structures to collect geometric information of routable lanes surrounding autonomous vehicles. Built a 3-layer end-to-end pipeline using RPCs to transfer lane data for front-end display. Contributed to a 62% expansion of the self-driving zone across San Francisco, Phoenix, and Austin."
+        "title": "Software Engineering Intern (×2)",
+        "years": "June 2022 – December 2023",
+        "description": "2023: Built an execution proxy for remote execution optimization, reducing operational costs by $100K/month. 2022: Designed C++ data structures to collect geometric lane data surrounding autonomous vehicles. Built a 3-layer RPC pipeline for front-end display. Contributed to a 62% expansion of the self-driving zone across San Francisco, Phoenix, and Austin."
       }
     ],
     "skills": [
