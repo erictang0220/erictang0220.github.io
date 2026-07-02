@@ -120,14 +120,54 @@
   },
   "art": {
     "pieces": [
-      {"name": "Couplet", "date": "Calligraphy", "story": "", "image": "couplet.jpeg"},
-      {"name": "Horse", "date": "Painting", "story": "", "image": "horse.jpg"},
-      {"name": "Joy", "date": "Calligraphy", "story": "", "image": "joy.jpg"},
-      {"name": "Parasol", "date": "Painting", "story": "", "image": "parasol.jpeg"},
-      {"name": "Peony", "date": "Painting", "story": "", "image": "peony.jpeg"},
-      {"name": "Pipa Xing", "date": "Calligraphy", "story": "", "image": "pipaxing.jpg"},
-      {"name": "Square", "date": "Calligraphy", "story": "", "image": "square.jpeg"},
-      {"name": "Xingshu", "date": "Calligraphy", "story": "", "image": "xingshu.jpeg"}
+      {
+        "name": "春联 New Year Couplet",
+        "date": "Chinese Calligraphy",
+        "story": "A Chinese New Year couplet reading 梅傳春信宇 -- \"Plum blossoms carry spring's message.\" Wishing joy, luck, and fortune throughout the year.",
+        "image": "couplet.jpeg"
+      },
+      {
+        "name": "马到成功 Horse",
+        "date": "Chinese Brush Painting",
+        "story": "马到成功 -- \"Success upon the horse's arrival.\" A classic Chinese idiom for effortless achievement. Painted in traditional ink wash style.",
+        "image": "horse.jpg"
+      },
+      {
+        "name": "四季读书 Joy of Reading",
+        "date": "Chinese Calligraphy",
+        "story": "Four strips for spring, summer, fall, and winter -- each describing how the season's scenery spices up the joy of studying.",
+        "image": "joy.jpg"
+      },
+      {
+        "name": "Painted Parasol",
+        "date": "Chinese Brush Painting",
+        "story": "Chinese ink calligraphy and brush painting on a traditional oil-paper parasol.",
+        "image": "parasol.jpeg"
+      },
+      {
+        "name": "牡丹 Peonies",
+        "date": "Chinese Brush Painting",
+        "story": "Peonies symbolize wealth, beauty, and prosperity in Chinese culture. Painted in traditional gongbi (工笔) style.",
+        "image": "peony.jpeg"
+      },
+      {
+        "name": "琵琶行 Pipa Xing",
+        "date": "Chinese Calligraphy",
+        "story": "A Tang Dynasty poem by Bai Juyi (白居易). A lady's mastery of the pipa parallels the author's anguish after political demotion -- insinuating that corruption overshadows true talent.",
+        "image": "pipaxing.jpg"
+      },
+      {
+        "name": "新年祝福 New Year Blessings",
+        "date": "Chinese Calligraphy",
+        "story": "Diamond-shaped cards. Left: 吉祥如意 (Auspicious luck and fulfilled wishes). Right: 招財進寶 (Attract wealth and treasures) -- a compound of four characters.",
+        "image": "square.jpeg"
+      },
+      {
+        "name": "行书 Running Script",
+        "date": "Chinese Calligraphy",
+        "story": "Written in 行书 (xingshu) semi-cursive style. Describes how the author remains joyful when rain starts during a mountain hike -- reflecting optimism toward life's challenges.",
+        "image": "xingshu.jpeg"
+      }
     ]
   }
 }
