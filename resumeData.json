@@ -1,253 +1,138 @@
 {
   "main": {
-    "name":"Hi there!",
-    "description":"I'm Eric Tang, a UCLA software engineering student dabbling in different fields of software. I have experiences with autonomous vehicle programming, biomedical imaging, and web development.",
-    "image":"profilepic.jpg",
-    "bio":"I'm fluent in C++, C, Python, MatLab, and I have good understanding JavaScript, HTML, CSS.",
-    "contactmessage":"Please let me know if you have any questions about my projects or artwork!",
+    "name": "Hi there!",
+    "description": "Software engineer and aspiring life enjoyer.",
+    "image": "profilepic.jpg",
+    "bio": "I build distributed systems and ops tooling at DoorDash -- and explore the world the rest of the time. 40+ countries visited, most recently walking the Camino de Santiago across Spain and backpacking through Garibaldi Provincial Park in British Columbia. UCLA Computer Science grad with a background spanning logistics platforms, autonomous vehicles, and biomedical imaging. When I'm not traveling or shipping code, I'm in the gym, dialing in macros, or plotting the next adventure.",
+    "contactmessage": "Feel free to reach out -- whether it's about code, travel, or the best ramen in Seattle.",
     "email": "erictang0220@gmail.com",
     "phone": "512-599-0639",
-    "github":"https://github.com/erictang0220",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"7217 Ellaview Lane",
-      "city":"Austin",
-      "state":"Texas",
-      "zip": "78759"
+    "github": "https://github.com/erictang0220",
+    "project": "https://github.com/erictang0220",
+    "address": {
+      "street": "",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98125"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "website": "https://erictang0220.github.io/My-Portfolio/",
+    "resumedownload": "resume.pdf",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/profile.php?id=100018234911336",
-        "className":"fa fa-facebook"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/erictang24",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
+        "name": "github",
+        "url": "https://github.com/erictang0220",
+        "className": "fa fa-github"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/erictang24",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"https://www.instagram.com/ericc_tang/",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/erictang0220",
-        "className":"fa fa-github"
+        "name": "instagram",
+        "url": "https://www.instagram.com/ericc_tang/",
+        "className": "fa fa-instagram"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here are some of the programming languages and software tools I know",
-    "education":[
+  "resume": {
+    "skillmessage": "Languages and tools I work with day-to-day and have used in production",
+    "education": [
       {
-        "school":"University of California-Los Angeles",
-        "degree":"Bachelor's of Science in Computer Science and Engineering",
-        "graduated":"March 2024",
-        "description":"I was the IEEE-Eta Kappa Nu Membership Chair from 2021-2022. My responsibilities included organizing orientation and induction ceremony for 50+ members. I'm also a member of Honor Societies UPE and ALD|PES and enlisted in Dean’s Honors for all terms. Some of the relevant courseworks I have done at UCLA are Data Structures & Algorithms, Object Oriented Programming, Assembly Languages, Parallel Programming, Operating System, iOS App Development (CodePath certified), Automata Theory, Linear Algebra, Multivariable Calculus, Electromagnetism."
+        "school": "University of California, Los Angeles",
+        "degree": "Bachelor of Science in Computer Science and Engineering",
+        "graduated": "June 2024",
+        "description": "GPA: 3.89/4.00 — Dean's Honors (all terms). Member of UPE and IEEE-HKN Honor Societies. IEEE-Eta Kappa Nu Membership Chair: organized orientation and induction for 50+ members. Relevant coursework: Data Structures & Algorithms, Operating Systems, Machine Learning, Embedded Systems, Computer Networks, Compilers, Parallel Programming, Linear Algebra."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Cruise LLC",
-        "title":"Software Engineering Intern",
-        "years":"June 2022 - September 2022",
-        "description":"Implement 3 heuristic functions to identify the causes of unintended autonomous vehicle (AV) stops during human handovers. Enable Cruise to expand the AV self-driving zone in San Francisco."
+        "company": "DoorDash",
+        "title": "Software Engineer — Logistics Platform",
+        "years": "February 2025 – Present",
+        "description": "Building Task Console, a self-serve ops platform supporting 21 active Dasher task types across 6+ teams (DashMart, JETS, Waymo, Wolt). Shipped bulk task operations enabling 10,000+ tasks per batch. Architecting zero-downtime Pedregal migration via Kafka shadow pipeline. Migrated 16 pay configs from static JSON to CRDB-backed gRPC API, cutting new task onboarding from days to hours. Stack: Kotlin, Go, TypeScript, React, Kafka, gRPC, CRDB, DGS/GraphQL."
       },
       {
-        "company":"Biomedical Imaging Research Institute, Cedars-Sinai Medical Center",
-        "title":"Research Intern",
-        "years":"June 2021 - December 2021",
-        "description":"Designed and coded simulated prostate shim coils to correct the off-resonance caused by rectal air under MRI scans. Implemented genetic algorithm, data augmentation, and parallel programming to optimize coil position. Engineered experiment apparatus for use on volunteers and pigs at the Research Imaging Core. Improved prostate field homogeneity by 35% for easier identification of prostate cancer. Utilized deep learning to segment twelve organs with 96% success rate."
+        "company": "Stealth Startup",
+        "title": "Founding Engineer (Part-time)",
+        "years": "February 2026 – Present",
+        "description": "Co-founding an early-stage startup backed by the Google Startups Cloud Program. Building the core technical foundation part-time alongside my full-time role at DoorDash."
       },
       {
-        "company":"Cedars-Sinai Medical Center",
-        "title":"Research Apprentice",
-        "years":"May 2020 - Mar 2021",
-        "description":"Simulated MRI’s B0 magnetic field distortion from whole-body CT images to speed up experiments. Utilized Light Fidelity between IR LEDs and photodiodes to improve patient communication during MRI scans. Synchronized data on cloud for easier access and modification."
+        "company": "Amazon",
+        "title": "Software Engineering Intern",
+        "years": "June 2024 – September 2024",
+        "description": "Built a React/Java platform enabling bulk upload and download of Amazon Business invoicing response rules, reducing rule configuration time by 80× and cutting business invoicing rejection rate by 40%. Implemented Excel deserialization, validation, and rollback on partial upload failure."
+      },
+      {
+        "company": "Amazon",
+        "title": "Software Engineering Intern",
+        "years": "June 2023 – September 2023",
+        "description": "Built a C++ application increasing Echo Show camera resolution using super-resolution (SR) algorithms with OpenCV. Introduced support for 4 SR algorithms, 2 upscaling factors, and custom frame acquisition. Achieved 40% average image quality improvement measured by PSNR and SSIM metrics."
+      },
+      {
+        "company": "Cruise (GM)",
+        "title": "Software Engineering Intern",
+        "years": "September 2023 – December 2023",
+        "description": "Built an execution proxy for remote execution optimization, reducing operational costs by $100K/month."
+      },
+      {
+        "company": "Cruise (GM)",
+        "title": "Software Engineering Intern",
+        "years": "June 2022 – September 2022",
+        "description": "Designed C++ data structures to collect geometric information of routable lanes surrounding autonomous vehicles. Built a 3-layer end-to-end pipeline using RPCs to transfer lane data for front-end display. Contributed to a 62% expansion of the self-driving zone across San Francisco, Phoenix, and Austin."
       }
     ],
-    "skills":[
-      {
-        "name":"C++",
-        "level":"90%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"MATLAB",
-        "level":"90%"
-      },
-      {
-        "name":"HTML",
-        "level":"80%"
-      },
-      {
-        "name":"Git",
-        "level":"80%"
-      },
-      {
-        "name":"Linux",
-        "level":"75%"
-      },
-      {
-        "name":"Swift",
-        "level":"60%"
-      },
-      {
-        "name":"C",
-        "level":"70%"
-      },
-      {
-        "name":"Python",
-        "level":"70%"
-      },
-      {
-        "name":"Java",
-        "level":"65%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      }
-      
+    "skills": [
+      { "name": "Kotlin", "level": "90%" },
+      { "name": "TypeScript/React", "level": "85%" },
+      { "name": "Go", "level": "80%" },
+      { "name": "Python", "level": "80%" },
+      { "name": "Java", "level": "75%" },
+      { "name": "C++", "level": "75%" },
+      { "name": "Kafka / gRPC", "level": "80%" },
+      { "name": "SQL / CRDB", "level": "80%" },
+      { "name": "Git / Docker", "level": "85%" },
+      { "name": "Swift (iOS)", "level": "65%" }
     ]
   },
-  "art":{
-    "pieces": [
-      {
-        "name": "Sprint to Success",
-        "image": "horse.jpg",
-        "date": "3/2/2020",
-        "story": ""
-      },
-      {
-        "name": "Welcoming Fortune",
-        "image": "square.jpeg",
-        "date": "12/5/2019",
-        "story": ""
-      },
-      {
-        "name": "Joy of Reading in Four Seasons",
-        "image": "joy.jpg",
-        "date": "3/2/2018",
-        "story": ""
-      },
-      {
-        "name": "Optimism in Rain",
-        "image": "parasol.jpeg",
-        "date": "2/9/2020",
-        "story": ""
-      },
-      {
-        "name": "Peony of Fortune",
-        "image": "peony.jpeg",
-        "date": "4/8/2019",
-        "story": ""
-      },
-      {
-        "name": "Corruption",
-        "image": "pipaxing.jpg",
-        "date": "7/5/2019",
-        "story": ""
-      },
-      {
-        "name": "Winter Dies and Spring Arrives",
-        "image": "couplet.jpeg",
-        "date": "2/20/2019",
-        "story": ""
-      },
-      {
-        "name": "Optimism in Rain",
-        "image": "xingshu.jpeg",
-        "date": "3/10/2020",
-        "story": ""
-      }
-    ]
-  },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Task Console — DoorDash",
+        "category": "Self-serve ops platform for Dasher task management (21 task types, 6+ teams)",
+        "image": "01.jpg",
+        "url": "https://www.linkedin.com/in/erictang24"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "SeekEats",
+        "category": "iOS app (App Store): earn points via surveys, redeem food coupons — 200+ users, 40+ partners",
+        "image": "02.jpg",
+        "url": "https://apps.apple.com/us/app/seekeats/id1671559232"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "StudyRadar",
+        "category": "Full-stack study group matchmaking web app — React/Node.js/PostgreSQL, 50+ UCLA users",
+        "image": "03.jpg",
+        "url": "https://github.com/erictang0220"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Echo Show Super-Resolution",
+        "category": "C++/OpenCV app increasing Echo Show camera resolution by 40% using SR algorithms — Amazon internship",
+        "image": "04.jpg",
+        "url": "https://github.com/erictang0220"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Autonomous Vehicle Lane Data Pipeline",
+        "category": "3-layer C++ pipeline for AV lane geometry transfer — contributed to 62% SF self-driving zone expansion (Cruise)",
+        "image": "05.jpg",
+        "url": "https://www.linkedin.com/in/erictang24"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Intellicom — FPGA Messaging System",
+        "category": "Bidirectional messaging system between FPGA boards using Bluetooth, UART, and MicroBlaze C",
+        "image": "06.jpg",
+        "url": "https://github.com/erictang0220"
       }
     ]
   }
