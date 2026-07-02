@@ -9,12 +9,7 @@
     "phone": "512-599-0639",
     "github": "https://github.com/erictang0220",
     "project": "https://github.com/erictang0220",
-    "address": {
-      "street": "",
-      "city": "Seattle",
-      "state": "WA",
-      "zip": "98125"
-    },
+    "address": {},
     "website": "https://erictang0220.github.io/My-Portfolio/",
     "resumedownload": "resume.pdf",
     "social": [
@@ -121,19 +116,19 @@
   "art": {
     "pieces": [
       {
-        "name": "春联 New Year Couplet",
+        "name": "春聯 New Year Couplet",
         "date": "Chinese Calligraphy",
         "story": "A Chinese New Year couplet reading 梅傳春信宇 -- \"Plum blossoms carry spring's message.\" Wishing joy, luck, and fortune throughout the year.",
         "image": "couplet.jpeg"
       },
       {
-        "name": "马到成功 Horse",
+        "name": "馬到成功 Horse",
         "date": "Chinese Brush Painting",
-        "story": "马到成功 -- \"Success upon the horse's arrival.\" A classic Chinese idiom for effortless achievement. Painted in traditional ink wash style.",
+        "story": "馬到成功 -- \"Success upon the horse's arrival.\" A classic Chinese idiom for effortless achievement. Painted in traditional ink wash style.",
         "image": "horse.jpg"
       },
       {
-        "name": "四季读书 Joy of Reading",
+        "name": "四季讀書 Joy of Reading",
         "date": "Chinese Calligraphy",
         "story": "Four strips for spring, summer, fall, and winter -- each describing how the season's scenery spices up the joy of studying.",
         "image": "joy.jpg"
@@ -147,7 +142,7 @@
       {
         "name": "牡丹 Peonies",
         "date": "Chinese Brush Painting",
-        "story": "Peonies symbolize wealth, beauty, and prosperity in Chinese culture. Painted in traditional gongbi (工笔) style.",
+        "story": "Peonies symbolize wealth, beauty, and prosperity in Chinese culture. Painted in traditional gongbi (工筆) style.",
         "image": "peony.jpeg"
       },
       {
@@ -163,9 +158,9 @@
         "image": "square.jpeg"
       },
       {
-        "name": "行书 Running Script",
+        "name": "行書 Running Script",
         "date": "Chinese Calligraphy",
-        "story": "Written in 行书 (xingshu) semi-cursive style. Describes how the author remains joyful when rain starts during a mountain hike -- reflecting optimism toward life's challenges.",
+        "story": "Written in 行書 (xingshu) semi-cursive style. Describes how the author remains joyful when rain starts during a mountain hike -- reflecting optimism toward life's challenges.",
         "image": "xingshu.jpeg"
       }
     ]
